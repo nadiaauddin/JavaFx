@@ -7,17 +7,7 @@ To start the game there will be a button where you click start. My application w
 It was built by using GUI to implement a hangman drawing, texts, and labels
 
 
-## Folder Structure
+## UML Class Diagram
 
-The workspace contains two folders by default, where:
+For the UML class diagram, I created a main class and made methods that stored the words, displayed letters and drew the hangman. I used ArrayList, string, int to do this. I made a subclass that starts the game with a button. 
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
