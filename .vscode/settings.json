@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/nadiauddin/Downloads/javafx-sdk-19/lib/javafx-swt.jar",
+        "/Users/nadiauddin/Downloads/javafx-sdk-19/lib/**/*.jar"
+    ]
+}
