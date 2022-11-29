@@ -1,6 +1,11 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+My application is a hangman game. It is great for when you are bored and need entertainment
+
+To start the game there will be a button where you click start. My application will ask you to enter a word that you want another person to guess. Keep entering a letter until the word is guessed or the hangman is drawn.
+
+It was built by using GUI to implement a hangman drawing, texts, and labels
+
 
 ## Folder Structure
 
