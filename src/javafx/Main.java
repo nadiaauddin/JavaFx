@@ -14,7 +14,8 @@ import java.io.BufferedReader;
 
 public class Main extends JFrame {
     public static void main(String[] args) {
-        new Main();
+        new Startscreen();
+		
     }
 	private static JPanel hangmanPanel, inputPanel;
     private static JTextField wTextField = new JTextField(20);
@@ -106,20 +107,23 @@ public class Main extends JFrame {
 
     }
 
-    private void Right() {
-        String guess = wTextField.getText().toLowerCase();
-        addtheGuess(guess);
-        String displayString = "";
-        for (int i = 0; i < rightletter.length(); i++) {
-            displayString += rightletter.substring(i, i + 1) + " ";
-        }
-        rightletterLabel.setText(displayString);
 
-        if (rightletter.indexOf("_") < 0) {
-            JOptionPane.showMessageDialog(this, "You Won!");
-        }
-        wTextField.setText("");
-    }
+
+		private void Right() {
+			String guess = wTextField.getText().toLowerCase();
+			addtheGuess(guess);
+			String displayString = "";
+			for (int i = 0; i < rightletter.length(); i++) {
+				displayString += rightletter.substring(i, i + 1) + " ";
+			}
+			rightletterLabel.setText(displayString);
+
+			if (rightletter.indexOf("_") < 0) {
+				JOptionPane.showMessageDialog(this, "You Won!");
+			}
+			wTextField.setText("");
+		}
+
 
     private void addtheGuess(String guess) {
         ArrayList<Integer> indexes = new ArrayList<>();
